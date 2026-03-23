@@ -1,0 +1,10 @@
+{
+  "page_timeout_ms": 30000,
+  "navigation_retry_count": 1,
+  "browser_relaunch_retry_count": 3,
+  "max_actions_before_browser_restart": 100,
+  "gui_refresh_interval_ms": 1000,
+  "status_update_interval_seconds": 5,
+  "default_run_mode": "mixed_realistic",
+  "default_behavior_intensity": "medium"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "nurse_prompt_01",
+    "persona": "nurse",
+    "category": "ai",
+    "text": "Summarize the following synthetic patient education paragraph into 3 bullet points: Patients with type 2 diabetes should monitor their blood glucose levels regularly and follow a balanced diet that includes whole grains, lean proteins, and vegetables. Regular physical activity of at least 150 minutes per week is recommended."
+  },
+  {
+    "id": "nurse_prompt_02",
+    "persona": "nurse",
+    "category": "ai",
+    "text": "Rewrite this discharge instruction in simpler language suitable for a 6th-grade reading level: The patient should ambulate with assistance for the first 48 hours post-procedure and avoid lifting objects exceeding 10 pounds for two weeks."
+  },
+  {
+    "id": "nurse_prompt_03",
+    "persona": "nurse",
+    "category": "ai",
+    "text": "Create a medication reminder schedule for a fictional patient taking metformin twice daily and lisinopril once daily in the morning."
+  },
+  {
+    "id": "marketing_prompt_01",
+    "persona": "marketing",
+    "category": "ai",
+    "text": "Write three email subject lines for a fictional healthcare organization promoting a free wellness webinar about stress management for employees."
+  },
+  {
+    "id": "marketing_prompt_02",
+    "persona": "marketing",
+    "category": "ai",
+    "text": "Draft a 100-word social media post announcing a fictional hospital's new patient portal launch. Use a friendly and professional tone."
+  },
+  {
+    "id": "marketing_prompt_03",
+    "persona": "marketing",
+    "category": "ai",
+    "text": "Generate five hashtags suitable for a fictional healthcare brand's Instagram campaign about heart health awareness month."
+  },
+  {
+    "id": "radiology_prompt_01",
+    "persona": "radiology",
+    "category": "ai",
+    "text": "Explain the difference between T1-weighted and T2-weighted MRI sequences in plain language suitable for a medical student."
+  },
+  {
+    "id": "radiology_prompt_02",
+    "persona": "radiology",
+    "category": "ai",
+    "text": "Summarize the key steps in a standard CT abdomen and pelvis imaging protocol for a fictional radiology department orientation guide."
+  },
+  {
+    "id": "radiology_prompt_03",
+    "persona": "radiology",
+    "category": "ai",
+    "text": "List five common imaging artifacts in MRI and briefly describe what causes each one, for educational reference."
+  },
+  {
+    "id": "doctor_prompt_01",
+    "persona": "doctors",
+    "category": "ai",
+    "text": "Summarize this synthetic patient education paragraph into 3 bullet points: Hypertension management typically involves lifestyle modifications including dietary changes such as reducing sodium intake, regular aerobic exercise, weight management, and in many cases pharmacological therapy with first-line agents."
+  },
+  {
+    "id": "doctor_prompt_02",
+    "persona": "doctors",
+    "category": "ai",
+    "text": "Create a simplified explanation of the mechanism of action of ACE inhibitors suitable for patient education materials."
+  },
+  {
+    "id": "doctor_prompt_03",
+    "persona": "doctors",
+    "category": "ai",
+    "text": "Generate a fictional clinical decision support checklist for evaluating a patient presenting with acute chest pain in the emergency department."
+  }
+]
