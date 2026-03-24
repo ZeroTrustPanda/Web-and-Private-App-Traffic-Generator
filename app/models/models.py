@@ -77,6 +77,7 @@ class PrivateApp:
     enabled: bool = True
     name: str = ""
     fqdn: str = ""
+    port: int = 443
     landing_path: str = "/"
     expected_title_substring: str = ""
     expected_selector: str = "body"
@@ -85,7 +86,10 @@ class PrivateApp:
 
     def url(self) -> str:
         path = self.landing_path if self.landing_path.startswith("/") else f"/{self.landing_path}"
-        return f"https://{self.fqdn}{path}"
+        scheme = "http" if self.port == 80 else "https"
+        if (scheme == "https" and self.port == 443) or (scheme == "http" and self.port == 80):
+            return f"{scheme}://{self.fqdn}{path}"
+        return f"{scheme}://{self.fqdn}:{self.port}{path}"
 
 
 # ── Persona ───────────────────────────────────────────────────────────────
